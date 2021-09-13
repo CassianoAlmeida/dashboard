@@ -1,0 +1,22 @@
+#colaborador {
+    width: 312px;
+}
+
+.botao-adiciona-novo-colaborador {
+    background-color: #20F310;
+    color: #0F7307;
+    font-weight: bold;
+    font-size: 18px;
+    border: 2px solid #0F7307;
+    border-radius: 13px;
+    height: 26px;
+    width: 26px;
+}
+
+.botao-adiciona-novo-colaborador:hover {
+    background-color: #1DDB0F;
+}
+
+#time {
+    height: 26px;
+}

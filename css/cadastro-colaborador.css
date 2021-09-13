@@ -1,0 +1,73 @@
+.header-standard {
+    background-color: #05116C;
+}
+
+.logo-header-standard {
+    display: flex;
+    justify-content: center;
+}
+
+.logo-enactus-header-standard {
+    width: 14%;
+    margin: 20px 0;
+}
+
+.menu-header-standard {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+.dados-cadastro {
+    width: 350px;
+    margin: 60px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.dados-cadastro label {
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: bold;
+}
+
+
+.dados-cadastro select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url(http://www.webcis.com.br/images/imagens-noticias/select/ico-seta-appearance.gif) no-repeat #eeeeee;
+    background-position: 218px center;
+    width: 250px;
+    height: 30px;
+    border: 1px solid #DDD;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+#date {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    height: 30px;
+    border: 1px solid #DDD;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.dados-cadastro input {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    height: 20px;
+}
+
+.dados-cadastro #submit {
+    background-color: #E8CF18;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 5px;
+}

@@ -1,0 +1,68 @@
+.colaboradores {
+    margin: 50px auto;
+    width: 940px;
+    display: flex;
+    justify-content: center;
+    background-color: blanchedalmond;
+}
+
+.table-colaboradores {
+    width: 100%;
+    border: 3px solid black;
+    font-family: 'Rajdhani', sans-serif;
+    text-align: center;
+}
+
+.table-head {
+    background-color: #05116C;
+    color: blanchedalmond;
+    font-size: 20px;
+}
+
+.colaboradores .table-colaboradores tr {
+    height: 50px;
+    border: 1px solid black;
+}
+
+.colaboradores .table-colaboradores tr th, .colaboradores .table-colaboradores tr td {
+    width: calc(940px/4);
+    border: 1px solid black;
+    vertical-align: middle;
+    font-size: 18x;
+    font-weight: bold;
+}
+
+.editar-e-excluir {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.editar-e-excluir button {
+    height: 30px;
+    width: 80px;
+    border-radius: 15px;
+    border-style: none;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: bold;
+}
+
+.botao-editar {
+    background-color: #F1F144;
+    
+}
+
+.botao-editar:hover {
+    background-color: #F3F319;
+}
+
+.botao-excluir {
+    background-color: #F53838;
+}
+
+.botao-excluir:hover {
+    background-color: #F51010;
+}

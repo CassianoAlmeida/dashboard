@@ -1,0 +1,69 @@
+CADASTRO COLABORADOR
+
+Nome
+
+Gestão
+- GdCM
+- GdE
+- GdI
+- GdNF
+- GdT
+- Liderança
+
+Projeto (podem mudar)
+- Canário
+- Cigana
+- Maori
+- Novo projeto
+
+
+status (ativo e inativo)
+e-mail
+telefone
+data de nascimento
+ano de ingresso na facul
+curso
+ano de formatura
+RG
+CPF
+Nº USP
+Endereço
+
+---------------------------------
+
+ATIVIDADES QUE SERÃO CADASTRADAS
+
+Líder cadastra um evento (reunião), e para cada colaborador, haverá duas possibilidades 
+Líder sempre está presente
+Reuniões
+Tarefas (incluir tempo da tarefa e somar por colaborador)
+
+--------------------------------
+
+CRIAR EVENTO
+
+Colocar tela de criar evento no menu principal
+No evento, líder coloca número de horas e adiciona as pessoas
+Horas são contadas para o individual
+
+--------------------------------
+
+Gráfico de horas
+Gráfico de presença
+
+--------------------------------
+
+Saída de excel: nome colaborador e hora (apenas isso)
+Saída de excel: active team sheet - com os dados abaixo:
+
+Nome
+e-mail
+telefone
+data de nascimento
+ano de ingresso na facul
+curso
+ano de formatura
+RG
+CPF
+Nº USP
+Endereço

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Enactus - Cadastro</title>
+    <link rel="stylesheet" href="../css/all.css">
+    <style>@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');</style>
+</head>
+<body>
+   <header class="header-standard">
+       <div class="logo-header-standard">
+        <img src="../imagens/logo-enactus.jpg" alt="logo-enactus" class="logo-enactus-header-standard">
+       </div>
+       <div class="menu-header-standard">
+        <a href="atividades.html" class="listitem-menu-header">Voltar</a>
+       </div>
+   </header>
+
+   <main>
+       <form class="dados-cadastro">
+        <label for="name">Nome do projeto</label>
+        <input type="text" id="name" name="name">
+
+        <label for="time">Duração</label>
+        <input type="time" id="time" name="time">
+
+        <label for="colaborador">Participantes</label> 
+         <div class="adiciona-novo-colaborador">
+            <input type="text" id="colaborador" name="colaborador">
+            <button class="botao-adiciona-novo-colaborador">+</button> 
+        </div>
+         
+        <input type="submit" id="submit" value="Confirmar">
+       </form>
+   </main>
+
+   <script type="module" src="../js/cadastro-colaborador.js"></script>
+   <footer>
+
+   </footer>
+</body>
+</html>
